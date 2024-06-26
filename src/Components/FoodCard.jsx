@@ -3,10 +3,10 @@ import styled from "styled-components";
 
 const YemekCard = styled.div`
   display: flex;
-  flex-direction: column; /* Öğeleri dikey hizalar */
-  align-items: flex-start; /* Öğeleri sola hizalar */
-  padding: 16px; /* İç boşluk ekler */
-  margin: 16px; /* Dış boşluk ekler */
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px;
+  margin: 16px;
   max-width: 581px;
 `;
 
@@ -17,40 +17,40 @@ const Baslik = styled.h2`
 
 const FiyatPuanYorumContainer = styled.div`
   display: flex;
-  justify-content: space-between; /* Öğeleri eşit mesafede hizalar */
-  width: 100%; /* Tam genişlik */
-  margin-top: 8px; /* Üste boşluk ekler */
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 8px;
 `;
 
 const Fiyat = styled.p`
   font-weight: bold;
   font-size: 30px;
   color: #ce2829;
-  margin: 0; /* Düzgün hizalama için margin'leri sıfırlar */
+  margin: 0;
 `;
 
 const PuanYorumContainer = styled.div`
   display: flex;
-  align-items: center; /* Öğeleri dikeyde hizalar */
+  align-items: center;
 `;
 
 const Puan = styled.p`
   font-size: 18px;
   color: #888;
-  margin: 0 30px 0 0; /* Sağ tarafa ve Yorum ile arasına boşluk ekler */
+  margin: 0 30px 0 0;
 `;
 
 const Yorum = styled.p`
   font-size: 18px;
   color: #888;
-  margin: 0 0 0 20px; /* Sol tarafa boşluk ekler */
+  margin: 0 0 0 20px;
 `;
 
 const Aciklama = styled.p`
   font-size: 16px;
   color: #555;
-  margin-top: 16px; /* Üste boşluk ekler */
-  text-align: left; /* Metni sola hizalar */
+  margin-top: 16px;
+  text-align: left;
 `;
 function FoodCard() {
   return (
